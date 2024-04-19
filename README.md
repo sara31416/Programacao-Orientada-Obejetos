@@ -7,8 +7,10 @@ Neste módulo iremos estudar o paradigma da programação orientada a objetos. N
 3. Teste
 4. Classes e Objetos
 5. Construtores e Visibilidade
+6. Relacionamento entre classes
 7. Herança e Polimorfismo
-9. Interfaces e encapsulamento
+8. Interfaces e ecapsulamento
+9. Manutenção de Strings em Java
 10. Prova - Programação Orientada a Objetos
 11. Tratamento de Exceções
 12. Generics e Collections em Java
