@@ -117,9 +117,9 @@ public class quiz {
         System.out.println("Por favor Digite um valor");
         return false;
        }
-       else {
+       
         return true;
-       }
+       
     }
 
     public static void apresentarResultado(String nomeParticipante) {
@@ -133,7 +133,7 @@ public class quiz {
             ));
 
             for(int i = 0; i < QUANTIDADE_PERGUNTAS; i++) {
-                System.out.println("Gabarito - " + GABARITO[i] + " Sua resposta - " + RESPOSTAS[i]);
+                System.out.println("Gabarito - " + GABARITO[i] + " Sua resposta - " + RESPOSTAS[i].toLowerCase());
                 System.err.println(String.format(
                    "%s - %s",
                    (i + 1),
